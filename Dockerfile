@@ -4,6 +4,8 @@ FROM python:3.11
 # Define o diretório de trabalho dentro do contêiner
 WORKDIR /app
 
+ENV PYTHONPATH=/app
+
 # Copia os arquivos do projeto para dentro do contêiner
 COPY . .
 

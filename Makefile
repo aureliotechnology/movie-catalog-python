@@ -1,7 +1,7 @@
 # Define variáveis para os serviços Docker
 DOCKER_COMPOSE = docker-compose
-SERVICE_API = movie_api
-SERVICE_DB = movie_db
+SERVICE_API = api
+SERVICE_DB = db
 
 # Inicia o ambiente Docker (API + Banco de Dados)
 up:

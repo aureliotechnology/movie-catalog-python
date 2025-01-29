@@ -1,4 +1,7 @@
 from fastapi import FastAPI
+import sys
+sys.path.append("/app")
+
 from app.api.endpoints import health, db_health
 
 app = FastAPI(title="Movie Catalog API", version="1.0.0")
